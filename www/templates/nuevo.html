@@ -1,0 +1,20 @@
+<ion-view view-title="Login" name="login-view">
+  <ion-content class="padding">
+      <div class="list list-inset">
+          <h3>Registro de Usuario</h3>
+          <label class="item item-input">
+              <input type="text" placeholder="nombre" ng-model="data.nombre" required>
+          </label>
+          <label class="item item-input">
+              <input type="text" placeholder="apellido" ng-model="data.apellido" required>
+          </label>
+          <label class="item item-input">
+              <input type="text" placeholder="correo" ng-model="data.email" required>
+          </label>
+          <label class="item item-input">
+              <input type="password" placeholder="contraseña" ng-model="data.clave" required>
+          </label>
+      </div>
+      <button class="button button-calm" ng-click="nuevo()">Login</button>
+  </ion-content>
+</ion-view>
